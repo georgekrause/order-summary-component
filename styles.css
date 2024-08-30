@@ -5,3 +5,64 @@
 .attribution a { 
     color: hsl(228, 45%, 44%); 
 }
+
+h1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+p {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.plan {
+    display: flex;
+    flex-direction: row;
+    background-color: hsl(225, 100%, 98%);
+    width: 275px;
+    border-radius: 10px;
+    margin: 0 auto;
+    
+}
+
+.music {
+    width: 45px;
+    height: 45px;
+    padding-top: 25px;
+}
+
+.change {
+    
+}
+
+td {
+    text-align: center;
+}
+
+th {
+    padding: 15px;
+}
+
+.annual {
+    display: flex;
+    flex-direction: column;
+}
+
+.hero {
+    width: 300px;
+    border-radius: 20px 20px 0 0 ;
+}
+main {
+    background-color: hsl(225, 100%, 94%);
+}
+
+.card {
+    width: 300px;
+    border-radius: 20px 20px 0 0;
+    background-color: white;
+    margin: 0 auto;
+}

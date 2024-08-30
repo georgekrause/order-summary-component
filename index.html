@@ -5,32 +5,33 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  <link rel="stylesheet" src="styles.css">
+  <link rel="stylesheet" href="styles.css">
   <title>Frontend Mentor | Order summary card</title>
 
 </head>
 <body>
 <main>
   <article class="card">
-    <img src="images/illustration-hero.svg" alt="hero">
+    <img src="images/illustration-hero.svg" alt="hero" class="hero">
     <h1>Order Summary</h1>
 
     <p>You can now listen to millions of songs, audiobooks, and podcasts on any 
     device anywhere you like!</p>
     <section class="plan">
       <table>
-      <img src="images/icon-music.svg">
-      <tr>
-        <td>Annual Plan</td>
-        <td>$59.99/year</td>
-      </tr>
-      <tr>
-        <td>change</td>
-      </tr>
+        <tr>
+          <img src="images/icon-music.svg" alt="music" class="music">
+          <tr>
+            <th class="Annual">Annual Plan</th>
+            <td class="Annual">$59.99/year</td>
+            <td class="change"><a href="">change</a></td>
+          </tr>
+        </tr>
       </table>
     </section>
-    <button>proceed to Payment</button>
-    <button>Cancel Order</button>
+    <button class="Payment">Proceed to Payment</button>
+    <br>
+    <button class="Cancel">Cancel Order</button>
   </article>
   <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
