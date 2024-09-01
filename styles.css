@@ -1,5 +1,6 @@
 .attribution { 
-    font-size: 11px; text-align: center; 
+    font-size: 11px; 
+    text-align: center; 
 }
 
 .attribution a { 
@@ -12,11 +13,12 @@ h1 {
     justify-content: center;
 }
 
-p {
+.discription {
     display: flex;
     align-items: center;
     justify-content: center;
     text-align: center;
+    padding-bottom: 18px;
 }
 
 .plan {
@@ -24,6 +26,7 @@ p {
     flex-direction: row;
     background-color: hsl(225, 100%, 98%);
     width: 275px;
+    height: 60px;
     border-radius: 10px;
     margin: 0 auto;
     
@@ -32,37 +35,58 @@ p {
 .music {
     width: 45px;
     height: 45px;
-    padding-top: 25px;
+    padding-top: 10px;
+    padding-right: 10px;
 }
 
 .change {
-    
-}
-
-td {
-    text-align: center;
-}
-
-th {
-    padding: 15px;
+    padding-left: 70px;
+    padding-top: 10px;
 }
 
 .annual {
     display: flex;
     flex-direction: column;
+    padding-left: 30px;
+}
+
+p {
+   line-height: 5px; 
 }
 
 .hero {
     width: 300px;
     border-radius: 20px 20px 0 0 ;
 }
-main {
+
+body {
     background-color: hsl(225, 100%, 94%);
 }
 
 .card {
     width: 300px;
-    border-radius: 20px 20px 0 0;
+    border-radius: 20px;
     background-color: white;
     margin: 0 auto;
+}
+
+.Payment {
+    margin-left: 25px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    height: 40px;
+    width: 250px;
+    color: white;
+    background-color:hsl(228, 45%, 44%);
+    border-radius: 5px;
+    border: none;
+}
+
+.Cancel {
+    height: 40px;
+    width: 250px;
+    border: none;
+    background-color: transparent;
+    margin-left: 25px;
+    margin-bottom: 15px;
 }
