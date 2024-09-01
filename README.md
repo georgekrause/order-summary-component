@@ -19,8 +19,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [order-summary-component](https://github.com/georgekrause/order-summary-component)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [github](https://github.com/georgekrause/order-summary-component)
+- Live Site URL: [vercel](https://vercel.com/georgekrauses-projects/order-summary-component)
 
 ### Built with
 
