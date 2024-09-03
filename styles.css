@@ -43,13 +43,13 @@ h1 {
     padding-left: 70px;
     padding-top: 10px;
 }
-
+/*
 .annual {
     display: flex;
     flex-direction: column;
     padding-left: 30px;
 }
-
+*/
 p {
    line-height: 5px; 
 }
@@ -74,7 +74,7 @@ body {
     margin: 0 auto;
 }
 
-.Payment {
+.payment {
     margin-left: 25px;
     margin-top: 15px;
     margin-bottom: 15px;
@@ -86,11 +86,20 @@ body {
     border: none;
 }
 
-.Cancel {
+.payment:hover {
+    background-color: hsl(223, 47%, 23%);
+}
+
+.cancel {
     height: 40px;
     width: 250px;
     border: none;
+    border-radius: 5px;
     background-color: transparent;
     margin-left: 25px;
     margin-bottom: 15px;
+}
+
+.cancel:hover {
+    background-color: hsl(224, 23%, 55%);
 }
